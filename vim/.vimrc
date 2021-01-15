@@ -20,9 +20,6 @@ map <Leader>y "+y
 noremap <Leader>w :call search('[A-Z_^$ ]', 'W')<CR>
 noremap <Leader>b :call search('[A-Z_^$ ]', 'Wb')<CR>
 noremap <Leader>e :call search('.[A-Z_^$ ]', 'W')<CR>
-noremap <Leader>w :call search('[A-Z_^$ ]', 'W')<CR>
-noremap <Leader>b :call search('[A-Z_^$ ]', 'Wb')<CR>
-noremap <Leader>e :call search('.[A-Z_^$ ]', 'W')<CR>
 
 "" Plugins
 " Vim-Plug
