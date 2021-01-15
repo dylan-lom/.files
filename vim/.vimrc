@@ -17,12 +17,12 @@ match WarningMsg /\%81v.\+/
 "" Maps
 map <Leader>y "+y
 " Camel and snake inclusive w b & e
-nnoremap <Leader>w :call search('[A-Z_^$ ]', 'W')<CR>
-nnoremap <Leader>b :call search('[A-Z_^$ ]', 'Wb')<CR>
-nnoremap <Leader>e :call search('.[A-Z_^$ ]', 'W')<CR>
-inoremap <Leader>w :call search('[A-Z_^$ ]', 'W')<CR>
-inoremap <Leader>b :call search('[A-Z_^$ ]', 'Wb')<CR>
-inoremap <Leader>e :call search('.[A-Z_^$ ]', 'W')<CR>
+noremap <Leader>w :call search('[A-Z_^$ ]', 'W')<CR>
+noremap <Leader>b :call search('[A-Z_^$ ]', 'Wb')<CR>
+noremap <Leader>e :call search('.[A-Z_^$ ]', 'W')<CR>
+noremap <Leader>w :call search('[A-Z_^$ ]', 'W')<CR>
+noremap <Leader>b :call search('[A-Z_^$ ]', 'Wb')<CR>
+noremap <Leader>e :call search('.[A-Z_^$ ]', 'W')<CR>
 
 "" Plugins
 " Vim-Plug
